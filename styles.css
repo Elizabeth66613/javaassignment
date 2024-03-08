@@ -1,0 +1,51 @@
+// changing the color of bars in barchart
+.default-color0.chart-bar {
+    -fx-bar-fill: BLUE;
+}
+//setting a gradient background for scene1
+#scene1 {
+    -fx-background: linear-gradient(to right, lightskyblue, lightcyan);
+}
+//setting a lavender background for scene2
+#scene2 {
+    -fx-background-color:"lavender";
+}
+//setting the background image for anchor pane
+#scene22 {
+    -fx-background-image: url("image2.jpg");
+    -fx-background-size: 257px 234px;
+    -fx-background-repeat: no-repeat;
+}
+//setting the background color for all labels
+.label {
+    -fx-background-color:"lemonchiffon";
+
+
+
+}
+//setting a new font for the main labels
+#label{
+    -fx-font-family: "Shadows Into Light";
+    -fx-background-radius: 10;//round the corners
+}
+//setting the background color for button in scene1
+#switch1 {
+    -fx-background-color:"lemonchiffon";
+}
+//setting the background color for button in scene2
+#switch2 {
+    -fx-background-color:"honeydew";
+}
+//setting the background color for button in scene2
+#btload {
+    -fx-background-color:"honeydew";
+}
+//creating table borders and rounding the corners
+#table {
+    -fx-border-style: solid inside;
+    -fx-border_width: 12px;
+    -fx-border-insets: 5;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-background-radius: 15;
+}
